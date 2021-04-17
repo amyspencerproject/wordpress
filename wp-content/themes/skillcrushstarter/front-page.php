@@ -20,7 +20,9 @@ get_header(); ?>
 					<a href="https://github.com/amyspencerproject" class="soc-icon gh"><span class="screen-reader-text">GitHub</span></a>
 					<a href="https://www.instagram.com/carbongirl2019/" class="soc-icon in"><span class="screen-reader-text">Instagram</span></a>
 				</div>
-				<a href="<?php echo site_url('/blog/'); ?>" class="btn">View My Blog</a>
+				<div class="blog-box">
+					<a href="<?php echo site_url('/blog/'); ?>" class="btn">View My Blog</a>
+				</div>
 			<?php endwhile; ?>
 		</div>
 	</div>

@@ -802,6 +802,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
 .home .page-header {
 	display: none;
 }
@@ -809,11 +810,17 @@ body {
 	max-width: 600px;
 	background: #f2f2f2;
 	padding: 3em;
+	height: 600px;
 }
+
 .home .main-content {
 	display: block;
 	width: 100%;
 	padding: 4em 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	
 }
 .home .content h1 {
 	font: 700 2.25em/1.5 'Montserrat', 'OpenSans', Arial, sans-serif;
