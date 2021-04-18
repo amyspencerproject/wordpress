@@ -794,9 +794,14 @@ body {
 /*End ACCESSIBILITY STYLES*/
 
 /* HOMEPAGE STYLES */
+html,
+body {
+	height: auto;
+}
+
 .home {
 	width: 100%;
-	background: url(img/sea-background.jpg) no-repeat center center;
+	background: url(img/Northwest_Australia_EarthKAM.jpg) no-repeat center #0A0E28;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -810,17 +815,15 @@ body {
 	max-width: 600px;
 	background: #f2f2f2;
 	padding: 3em;
-	height: 600px;
 }
 
 .home .main-content {
-	display: block;
 	width: 100%;
 	padding: 4em 0;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	
+	flex-flow: row wrap;
 }
 .home .content h1 {
 	font: 700 2.25em/1.5 'Montserrat', 'OpenSans', Arial, sans-serif;
@@ -837,6 +840,8 @@ body {
 }
 .home .content .social-btns {
 	margin-bottom: 1.875em;
+	width: 100%;
+	text-align: center;
 }
 .home .content .social-btns a {
 	display: inline-block;
